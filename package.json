@@ -2,7 +2,7 @@
   "name": "dripjson",
   "version": "0.1.0",
   "description": "Incremental parser for streaming, partial JSON with typed events and best-effort completion.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
