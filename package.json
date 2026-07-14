@@ -1,0 +1,54 @@
+{
+  "name": "dripjson",
+  "version": "0.1.0",
+  "description": "Incremental parser for streaming, partial JSON with typed events and best-effort completion.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "dripjson": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "json",
+    "streaming",
+    "incremental",
+    "partial-json",
+    "parser",
+    "llm",
+    "tool-calls",
+    "repair"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/dripjson.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/dripjson#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/dripjson/issues"
+  }
+}

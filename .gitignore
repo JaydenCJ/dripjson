@@ -1,0 +1,15 @@
+# build output
+dist/
+
+# dependencies
+node_modules/
+
+# editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# local scratch
+*.log
+*.tmp

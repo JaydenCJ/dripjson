@@ -1,0 +1,1 @@
+{"incident": "checkout-latency", "severity": 2, "timeline": [{"t": "09:02", "msg": "p99 spiked"}, {"t": "09:04", "msg": "failover started"}], "metrics": {"p99_ms": 840, "err_rate": 0.03}, "acknowledged": fal
